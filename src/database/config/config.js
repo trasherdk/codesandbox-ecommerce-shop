@@ -1,4 +1,5 @@
 require('dotenv').config();
+const winston = require('winston');
 
 module.exports = {
   development: {
@@ -15,7 +16,7 @@ module.exports = {
     database: process.env.TEST_DB_NAME,
     host: process.env.TEST_DB_HOST,
     dialect: 'mysql',
-    logging: false,
+    logging: winston.info,
   },
   production: {
     username: process.env.DB_USER,
