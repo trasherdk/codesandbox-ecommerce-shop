@@ -47,4 +47,4 @@ mysql -u <dbuser> -D <databasename> -p < ./src/database/database.sql
 `docker run --rm -p 8000:80 node_challenge`
 
 ## Request and Response Object API guide for all Endpoints
-Check [here](https://docs.google.com/document/d/1J12z1vPo8S5VEmcHGNejjJBOcqmPrr6RSQNdL58qJyE/edit?usp=sharing)
+Check [here](./Backend-Challenge-API-Template.md)
